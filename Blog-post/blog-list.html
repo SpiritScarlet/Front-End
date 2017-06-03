@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <title></title>
+    <style>
+        .nav-pills{
+            border-right: 1px solid lightgray;
+
+        }
+        a{
+            color:black;
+        }
+        .container{
+            margin-top: 20px;
+        }
+
+        .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+            color: #fff;
+            background-color: lightgreen;
+        }
+       .box{
+           padding:5px;
+           margin:10px;
+           color: lightgreen;
+           background-color: #334C4C;
+           height:300px;
+       }
+        .btn-success{
+            background-color: lightgreen;
+        }
+
+        /* DOKOLKU TREBA ISTO KAKO NA SLIKATA SO BORDER LEVO I DESNO */
+
+        .levo{
+            border-left: 1px solid darkgray;
+        }
+
+        .desno{
+            border-right: 1px solid lightgray;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 levo">
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-star"></span> News</a></li>
+                <li role="presentation"><a href="#">Latest news</a></li>
+                <li role="presentation"><a href="#">Updates</a></li>
+                <li role="presentation"><a href="#">Training</a></li>
+                <li role="presentation"><a href="#">Nutrition</a></li>
+                <li role="presentation"><a href="#">Proteins</a></li>
+                <li role="presentation"><a href="#">Recipes</a></li>
+                <li role="presentation"><a href="#">Challenge</a></li>
+                <hr>
+                <li role="presentation"><a href="#"><span class="glyphicon glyphicon-off"></span> Sign in</a></li>
+            </ul>
+
+            <div class="box">
+                <h3>
+                    Sidebar here!
+                </h3>
+            </div>
+        </div>
+        <div class="col-md-10 desno">
+            <div class="row">
+                <div class="col-md-2">
+                        <h1>Title 1</h1>
+                    <img src="img/guinnes-150x150.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-10">
+                    <h1 style="opacity: 0">Title1</h1>
+                    <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <button type="button" class="btn btn-success pull-right">READ MORE</button>
+                 </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2">
+                    <h1>Title 2</h1>
+                    <img src="img/DSC_4073-150x150.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-10">
+                    <h1 style="opacity: 0">Title2</h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <button type="button" class="btn btn-success pull-right">READ MORE</button>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-2">
+                    <h1>Title 3</h1>
+                    <img src="img/DSC_1681-150x150.jpg" class="img-responsive">
+                </div>
+                <div class="col-md-10">
+                    <h1 style="opacity: 0">Title3</h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <button type="button" class="btn btn-success pull-right">READ MORE</button>
+                </div>
+                <hr>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
+</body>
+</html>
